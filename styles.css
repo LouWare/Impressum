@@ -1,0 +1,103 @@
+/* Grundlegende Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #2c3e50;
+    padding: 20px;
+    color: #ecf0f1;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+}
+
+/* Hauptinhalt */
+main {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.impressum-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.impressum-container h2 {
+    font-family: 'Roboto Slab', serif;
+    color: #2c3e50;
+    border-bottom: 2px solid #e74c3c;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.impressum-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.info-box i {
+    font-size: 2em;
+    color: #e74c3c;
+    margin-top: 5px;
+}
+
+.info-box div {
+    flex: 1;
+}
+
+.info-box a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.info-box a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .impressum-container {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .info-box i {
+        font-size: 1.5em;
+    }
+}
