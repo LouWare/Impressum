@@ -185,7 +185,7 @@ export default function ImpressumModern() {
               transition={{ duration: 0.6, ease: "easeOut" }}
               className="text-3xl md:text-5xl font-semibold tracking-tight mb-4"
             >
-              Rechtliche Angaben – transparent und übersichtlich
+              Rechtliche Angaben
             </motion.h1>
             <motion.p
               initial={{ y: 12, opacity: 0 }}
@@ -231,7 +231,6 @@ export default function ImpressumModern() {
                   </address>
                 </div>
                 <div className="text-sm text-neutral-600 dark:text-neutral-300">
-                  <p>Internetauftritt: <a className="underline underline-offset-4 hover:no-underline" href={ORG.website} target="_blank" rel="noreferrer">{ORG.website}</a></p>
                   <p>Letzte Aktualisierung: {ORG.lastUpdated}</p>
                 </div>
               </div>
@@ -255,12 +254,6 @@ export default function ImpressumModern() {
                   <Phone className="h-5 w-5 mt-0.5" />
                   <a className="underline underline-offset-4 hover:no-underline" href={`tel:${ORG.phone}`}>{ORG.phone}</a>
                 </li>
-                <li className="flex items-start gap-3">
-                  <ExternalLink className="h-5 w-5 mt-0.5" />
-                  <a className="underline underline-offset-4 hover:no-underline" href={ORG.website} target="_blank" rel="noreferrer">
-                    {ORG.website}
-                  </a>
-                </li>
               </ul>
             </Card>
           </Anchor>
@@ -269,39 +262,6 @@ export default function ImpressumModern() {
             <Card icon={Landmark} title="Vertretungsberechtigte Person(en)">
               <p>
                 Vertreten durch: <span className="font-medium">{ORG.representedBy}</span> ({ORG.position})
-              </p>
-            </Card>
-          </Anchor>
-
-          <Anchor id="register">
-            <Card icon={FileText} title="Registereintrag & Umsatzsteuer-ID">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <p>Registergericht: <span className="font-medium">{ORG.registerCourt}</span></p>
-                  <p>Registernummer: <span className="font-medium">{ORG.registerNumber}</span></p>
-                </div>
-                <div>
-                  <p>Umsatzsteuer-Identifikationsnummer gem. § 27a UStG: <span className="font-medium">{ORG.vatId}</span></p>
-                </div>
-              </div>
-            </Card>
-          </Anchor>
-
-          <Anchor id="aufsicht">
-            <Card icon={ShieldCheck} title="Aufsichtsbehörde / Berufsrecht (falls einschlägig)">
-              <ul className="space-y-2">
-                <li>
-                  Zuständige Aufsichtsbehörde: <span className="font-medium">{ORG.supervisoryAuthority}</span>
-                </li>
-                <li>
-                  Berufsbezeichnung: <span className="font-medium">{ORG.professionalTitle}</span>
-                </li>
-                <li>
-                  Berufsrechtliche Regelungen: <span className="font-medium">{ORG.professionalRules}</span>
-                </li>
-              </ul>
-              <p className="text-sm text-neutral-600 dark:text-neutral-300 mt-3">
-                Hinweis: Angaben nur erforderlich, sofern eine reglementierte Tätigkeit ausgeübt wird.
               </p>
             </Card>
           </Anchor>
