@@ -1,8 +1,10 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// Falls das Repo z.B. "impressum-site" heißt, passe base an: "/impressum-site/"
+const repo = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "";
+const isUserSite = repo.endsWith(".github.io");
+
 export default defineConfig({
   plugins: [react()],
-  base: "/" // bei Benutzerseite username.github.io: "/" lassen
+  base: process.env.GITHUB_ACTIONS && !isUserSite ? `/${repo}/` : "/",
 });
