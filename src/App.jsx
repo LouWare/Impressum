@@ -27,7 +27,7 @@ import {
 
 const ORG = {
   // — Basisdaten —
-  legalName: "",
+  legalName: "Vivien Krüger",
   brand: "",
   street: "Düsedauer Straße 70",
   postalCode: "39606",
