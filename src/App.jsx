@@ -306,11 +306,11 @@ export default function ImpressumModern() {
                 {" "}
                 <a
                   className="underline underline-offset-4 hover:no-underline"
-                  href="https://ec.europa.eu/consumers/odr"
+                  href="https://consumer-redress.ec.europa.eu/index_de"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  https://ec.europa.eu/consumers/odr
+                  https://consumer-redress.ec.europa.eu/index_de
                 </a>
               </p>
             </Card>
