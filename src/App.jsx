@@ -67,8 +67,6 @@ const sections = [
   { id: "anbieter", label: "Anbieterkennzeichnung" },
   { id: "kontakt", label: "Kontakt" },
   { id: "vertretung", label: "Vertretung" },
-  { id: "register", label: "Register & USt" },
-  { id: "aufsicht", label: "Aufsicht/Berufsrecht" },
   { id: "verantwortlich", label: "§ 18 Abs. 2 MStV" },
   { id: "haftung", label: "Haftungshinweise" },
   { id: "urheberrecht", label: "Urheberrecht" },
