@@ -27,33 +27,33 @@ import {
 
 const ORG = {
   // — Basisdaten —
-  legalName: "Musterfirma GmbH",
-  brand: "Musterfirma",
-  street: "Beispielweg 12",
-  postalCode: "10115",
-  city: "Berlin",
+  legalName: "",
+  brand: "",
+  street: "Düsedauer Straße 70",
+  postalCode: "39606",
+  city: "Osterburg",
   country: "Deutschland",
-  email: "kontakt@musterfirma.de",
-  phone: "+49 (0)30 1234567",
-  website: "https://www.musterfirma.de",
+  email: "vivienkruger138@gmail.com",
+  phone: "+49 (0)15115837700",
+  website: "",
 
   // — Vertretung —
-  representedBy: "Max Mustermann",
-  position: "Geschäftsführer",
+  representedBy: "Vivien Krüger",
+  position: "Inhaberin",
 
   // — Register & USt —
-  registerCourt: "Amtsgericht Berlin (Charlottenburg)",
-  registerNumber: "HRB 123456",
-  vatId: "DE123456789",
+  registerCourt: "",
+  registerNumber: "",
+  vatId: "",
 
   // — Aufsicht / Berufsrecht (falls einschlägig) —
-  supervisoryAuthority: "— falls einschlägig: zuständige Aufsichtsbehörde —",
-  professionalTitle: "— z. B. Architekt (Deutschland) —",
-  professionalRules: "— einschlägige berufsrechtliche Regelungen —",
+  supervisoryAuthority: "",
+  professionalTitle: "",
+  professionalRules: "",
 
   // — Verantwortlich gem. § 18 Abs. 2 MStV —
-  contentResponsible: "Erika Beispiel",
-  contentResponsibleAddress: "Beispielweg 12, 10115 Berlin",
+  contentResponsible: "Vivien Krüger",
+  contentResponsibleAddress: "Düsedauer Straße 70, 39606 Osterburg",
 
   // — Verbraucherschlichtung —
   disputeText:
